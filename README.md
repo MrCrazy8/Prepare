@@ -15,8 +15,8 @@ This script includes many useful tools in different categories for your Linux OS
 - python3 prepare.py
 
 # Warning
-Before using this script be sure your source list work as well!
-Some of tools maybe need to configuration after downloading, You can config them by reading README.md files of them.
+- Before using this script be sure your source list work as well!
+- Some of the tools maybe need to the configuration after downloading, You can config them by reading README.md files of them.
 
 # Issues
 If you see every issue, bug or error report it, Please.

@@ -29,24 +29,24 @@ def main():
         print("\n")
         print("\t\033[91m[~] Before using this script be sure your source list work as well!\n")
         print("\033[91m1) \033[0mupdate && upgrade\t\033[91m6) \033[0mGraphic")
-        print("\033[91m2) \033[0mdist-upgrade\t\t\033[91m7) \033[0mUsefull")
+        print("\033[91m2) \033[0mdist-upgrade\t\t\033[91m7) \033[0mUseful")
         print("\033[91m3) \033[0mProgramming\t\t\033[91m8) \033[0mSocial")
         print("\033[91m4) \033[0mOffice\t\t\033[91m9) \033[0mEtc")
         print("\033[91m5) \033[0mInternet\t\t\033[91m10) \033[0mHacking")
         print("")
         print("\033[91m99) \033[0mexit")
-        choise = input("\n\033[36mEnter your choise: \033[0m")
+        choice = input("\n\033[36mEnter your choice: \033[0m")
         print("")
 
-        while choise == '1':
+        while choice == '1':
             os.system("apt-get update && apt-get upgrade")
             main()
 
-        while choise == '2':
+        while choice == '2':
             os.system("apt-get update && apt-get install -y upgrade")
             main()
 
-        while choise == '3':
+        while choice == '3':
             obj.Programming()
             ide = input("\033[36mIde > \033[0m")
             if ide == '1':
@@ -76,7 +76,7 @@ def main():
             else:
                 print("\n\033[91mWrong Command!\n")
 
-        while choise == '4':
+        while choice == '4':
             obj.Office()
             off = input("\033[36mOffice > \033[0m")
             if off == '1':
@@ -90,7 +90,7 @@ def main():
             else:
                 print("\n\033[91mWrong Command!\n")
 
-        while choise == '5':
+        while choice == '5':
             obj.Internet()
             browser = input("\033[36mBrowser > \033[0m")
             if browser == '1':
@@ -118,7 +118,7 @@ def main():
             else:
                 print("\n\033[91mWrong Command!\n")
 
-        while choise == '6':
+        while choice == '6':
             obj.Graphic()
             graphic = input("\033[36mGraphic > \033[0m")
             if graphic == '1':
@@ -141,9 +141,9 @@ def main():
             else:
                 print("\n\033[91mWrong Command!\n")
 
-        while choise == '7':
-            obj.Usefull()
-            use = input("\033[36mUsefull > \033[0m")
+        while choice == '7':
+            obj.Useful()
+            use = input("\033[36mUseful > \033[0m")
             if use == '1':
                 os.system('cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -')
                 print("")
@@ -189,7 +189,7 @@ def main():
             else:
                 print("\n\033[91mWrong Command!\n")
 
-        while choise == '8':
+        while choice == '8':
             obj.Social()
             special = input("\033[36mSpecial > \033[0m")
             if special == '1':
@@ -213,7 +213,7 @@ def main():
             else:
                 print("\n\033[91mWrong Command!\n")
 
-        while choise == '9':
+        while choice == '9':
             obj.Etc()
             etc = input("\033[36mEtc > \033[0m")
             if etc == '1':
@@ -247,7 +247,7 @@ def main():
             else:
                 print("\n\033[91mWrong Command!\n")
 
-        while choise == '10':
+        while choice == '10':
             obj.Hacking()
             Hack = input("\033[36mHacking > \033[0m")
             if Hack == '1':
@@ -355,12 +355,12 @@ def main():
             else:
                 print("\n\033[91mWrong Command!\n")
 
-        while choise == '99':
+        while choice == '99':
             print("---------- bye! ----------")
             sys.exit()
 
         allowed = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '99']
-        if choise not in allowed:
+        if choice not in allowed:
             main()
 
     except KeyboardInterrupt:

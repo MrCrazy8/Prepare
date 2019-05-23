@@ -3,6 +3,7 @@ A powerful tool for preparing your Debian based Linux OS.
 
 # Features
 This script includes many useful tools in different categories for your Debian based Linux OS.
+
 So by this script you can install different tools easily.
 
 # Requirements

@@ -11,10 +11,9 @@ So by this script you can install different tools easily.
 - A Debian based Linux distribution
 
 # Installation
-- sudo su
 - git clone https://github.com/Naategh/Prepare.git
 - cd Prepare
-- python3 prepare.py
+- sudo python3 prepare.py
 
 # Warning
 - Before using this script be sure your source list work as well!

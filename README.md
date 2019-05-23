@@ -2,7 +2,7 @@
 A powerful tool for preparing your Debian based Linux OS.
 
 # Features
-This script includes many useful tools in different categories for your Debian based Linux Linux OS.
+This script includes many useful tools in different categories for your Debian based Linux OS.
 
 # Requirements
 - Python 3.5

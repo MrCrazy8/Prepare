@@ -7,7 +7,7 @@ In fact, by installing this script you don't need to look for different reposito
 Just by entering a number you can install your favorite tool.
 
 # Usage
-<img src="https://media.giphy.com/media/L0Zw6pNfUbTCJmi4OR/giphy.gif" width="400" height="790" alt="Prepare.gif">
+<img src="https://media.giphy.com/media/L0Zw6pNfUbTCJmi4OR/giphy.gif" width="650" height="650" alt="Prepare.gif">
 
 
 # Requirements

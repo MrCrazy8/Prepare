@@ -69,3 +69,5 @@ class Functions:
         print("\033[91m15)\033[0m Hash-Identifier\t\t\033[91m30)\033[0m Backdoor-Factory")
         print("")
         print("\033[91m99)\033[0m back to main menu\n")
+
+        

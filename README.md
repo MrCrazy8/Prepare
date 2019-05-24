@@ -6,6 +6,10 @@ This script includes many useful tools in different categories, So by this scrip
 In fact, by installing this script you don't need to look for different repositories, commands or resources to install a tool,
 Just by entering a number you can install your favorite tool.
 
+# Usage
+![Alt Text](https://media.giphy.com/media/L0Zw6pNfUbTCJmi4OR/giphy.gif)
+
+
 # Requirements
 - Python 3.5
 - A Debian based Linux distribution

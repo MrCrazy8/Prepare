@@ -27,7 +27,7 @@ class Functions:
         print("")
         print("\033[91m99)\033[0m back to main menu\n")
 
-    def Usefull(self):
+    def Useful(self):
         print("\033[91m1)\033[0m Dropbox\t\t\t\033[91m7)\033[0m Lantern")
         print("\033[91m2)\033[0m Vlc\t\t\t\t\033[91m8)\033[0m Thunderbird")
         print("\033[91m3)\033[0m Wine\t\t\t\t\033[91m9)\033[0m Ngrok")

@@ -3,8 +3,8 @@ A powerful tool for preparing your Debian based Linux OS.
 
 # Features
 This script includes many useful tools in different categories, So by this script you can install different tools easily.   
-In fact by installing this script you don't need to look for different repositories, commands or resources to install a tool,
-Just by enter a number you can install your favirote tool.
+In fact, by installing this script you don't need to look for different repositories, commands or resources to install a tool,
+Just by entering a number you can install your favorite tool.
 
 # Requirements
 - Python 3.5

@@ -34,7 +34,7 @@ This project is licensed under the GNU GPLv3 License - see the [LICENSE](LICENSE
 
 # Contact
 - Email : manamtabeshekan@gmail.com
-- Twitter: https://twitter.com/Winst0n13
+- Twitter : https://twitter.com/Winst0n13
 - Telegram : @Naategh
 
 
